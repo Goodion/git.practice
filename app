@@ -2,8 +2,7 @@
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
-use \Symfony\Component\Console\Application as Application,
-    \App\SayHello as SayHello;
+use \Symfony\Component\Console\Application as Application;
 
 $app = new Application('git practice');
 
