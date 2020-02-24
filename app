@@ -6,6 +6,5 @@ use \Symfony\Component\Console\Application as Application,
     \App\SayHello as SayHello;
 
 $app = new Application('git practice');
-$app->add(new SayHello());
 
 $app->run();
