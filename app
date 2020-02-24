@@ -7,5 +7,4 @@ use \Symfony\Component\Console\Application as Application,
 
 $app = new Application('git practice');
 $app->add(new SayHello());
-
 $app->run();

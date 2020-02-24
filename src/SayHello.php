@@ -14,7 +14,7 @@ class SayHello extends Command
         $this
             ->setName('SayHello')
             ->setDescription('Adds "Привет" before the $string')
-            ->addArgument('string', InputArgument::REQUIRED, 'input string');
+            ->addArgument('string', InputArgument::REQUIRED, 'Input string');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
